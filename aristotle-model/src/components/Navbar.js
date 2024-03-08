@@ -47,11 +47,11 @@ const Navbar = () => {
             <li className="text-storm-gray-50 hover:text-storm-gray-950 hover:cursor-pointer transition duration-300" onClick={() => scrollToSection('about')}>
               About
             </li>
-            <li className="text-storm-gray-50 hover:text-storm-gray-950 hover:cursor-pointer transition duration-300" onClick={() => scrollToSection('get-started')}>
-              Photos
-            </li>
             <li className="text-storm-gray-50 hover:text-storm-gray-950 hover:cursor-pointer transition duration-300" onClick={() => scrollToSection('thank-you')}>
               Thank You
+            </li>
+            <li className="text-storm-gray-50 hover:text-storm-gray-950 hover:cursor-pointer transition duration-300" onClick={() => scrollToSection('photos')}>
+              Photos
             </li>
             <li className="text-storm-gray-50 hover:text-storm-gray-950 hover:cursor-pointer transition duration-300" onClick={() => scrollToSection('contact')}>
               Contact
@@ -59,10 +59,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center justify-end">
-          <a href="#" className="text-storm-gray-50 hover:text-storm-gray-950 mx-2">
+          <a href="https://www.instagram.com/aristotle.dance?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-storm-gray-50 hover:text-storm-gray-950 mx-2">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="#" className="text-storm-gray-50 hover:text-storm-gray-950 mx-2">
+          <a href="https://vimeo.com/user128604924" className="text-storm-gray-50 hover:text-storm-gray-950 mx-2">
             <FontAwesomeIcon icon={faVimeo} />
           </a>
         </div>

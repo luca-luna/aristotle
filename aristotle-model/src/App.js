@@ -5,6 +5,9 @@ import Training from './components/Training';
 import Reel from './components/Reel';
 import About from './components/About';
 import ThankYou from './components/ThankYou';
+import Photos from './components/Photos';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Reel />
       <About />
       <ThankYou />
+      <Photos />
+      <Contact />
+      <Footer />
     </div>
   );
 }
