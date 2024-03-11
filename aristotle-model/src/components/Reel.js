@@ -1,15 +1,16 @@
 import React from 'react';
 
-const LandingPage = () => {
+const Reel = () => {
   return (
-    <section id="reel">
-    <div className="min-h-screen bg-cover bg-center overflow-hidden flex items-center justify-start">
-      <div className="text-inconsolata text-storm-gray-900 text-left ml-64"> {/* Change the text color here */}
-        <h1 className="text-4xl font-bold mb-4">Hi there video</h1>
-      </div>
+    <div id="reel" className="relative w-full h-screen bg-gray-100 flex items-center justify-center pt-4">
+      <iframe
+        src="https://player.vimeo.com/video/920569234?h=9febf8db0d&autoplay=1&loop=1&title=0&byline=0&portrait=0"
+        className="w-5/6 h-5/6 outline-none rounded-lg shadow-lg bg-gray-900"
+        allow="fullscreen; picture-in-picture"
+        allowFullScreen
+      ></iframe>
     </div>
-    </section>
   );
 };
 
-export default LandingPage;
+export default Reel;

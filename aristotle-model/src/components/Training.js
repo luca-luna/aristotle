@@ -6,7 +6,7 @@ const Training = () => {
     <div id="training" className="bg-gray-100 py-20">
         <div className="max-w-screen-lg mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
-                <img src={Aristotle5} alt="Aristotle3" className="md:w-1/2 rounded-lg shadow-lg" />
+                <img src={Aristotle5} alt="Aristotle3" className="md:w-2/5 rounded-lg shadow-lg" />
                 <div className="md:w-1/2">
                     <h2 className="text-3xl font-bold text-gray-800 mb-4 text-inconsolata">Training</h2>
 
